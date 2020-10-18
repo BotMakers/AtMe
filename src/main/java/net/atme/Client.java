@@ -5,6 +5,9 @@ import net.displayphoenix.util.StringHelper;
 
 import java.io.*;
 
+/**
+ * @author TBroski
+ */
 public class Client {
 
     public static void createClientWrapper(DiscordBot bot, File directory) {

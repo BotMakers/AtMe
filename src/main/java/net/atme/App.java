@@ -15,6 +15,9 @@ import net.displayphoenix.web.Website;
 
 import java.awt.*;
 
+/**
+ * @author TBroski
+ */
 public class App {
 
     public static Website DOWNLOAD_PAGE = new Website("https://google.com");

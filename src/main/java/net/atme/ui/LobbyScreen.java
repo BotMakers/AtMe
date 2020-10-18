@@ -31,6 +31,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @author TBroski
+ */
 public class LobbyScreen {
 
     private static Gson gson = new GsonBuilder().setPrettyPrinting().create();

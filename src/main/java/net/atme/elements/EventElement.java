@@ -9,7 +9,6 @@ import net.displayphoenix.blockly.elements.workspace.ImplementedBlock;
 import net.displayphoenix.blockly.ui.BlocklyDependencyPanel;
 import net.displayphoenix.file.FileDialog;
 import net.atme.DiscordBot;
-import net.displayphoenix.blockly.ui.BlocklyPanel;
 import net.displayphoenix.ui.widget.RoundedButton;
 import net.displayphoenix.util.ImageHelper;
 import net.displayphoenix.util.PanelHelper;
@@ -21,6 +20,9 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
+/**
+ * @author TBroski
+ */
 public class EventElement extends Element {
 
     private String xml = "";

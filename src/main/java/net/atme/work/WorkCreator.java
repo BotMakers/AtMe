@@ -20,6 +20,9 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.File;
 
+/**
+ * @author TBroski
+ */
 public class WorkCreator {
 
     public static void createNewWork(JFrame opener) {

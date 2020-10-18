@@ -8,6 +8,9 @@ import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author TBroski
+ */
 public abstract class Element {
 
     private static List<Element> REGISTERED_ELEMENTS = new ArrayList<>();

@@ -28,6 +28,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @author TBroski
+ */
 public class DiscordBot extends DetailedFile {
 
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
