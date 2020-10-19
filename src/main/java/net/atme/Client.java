@@ -39,6 +39,7 @@ public class Client {
 
             // Create an wrapper
             File wrapper = new File(directory.getPath() + "/wrapper.bat");
+            wrapper.setExecutable(true);
             if (!wrapper.exists()) {
                 wrapper.createNewFile();
                 StringBuilder installerBat = new StringBuilder();
@@ -55,6 +56,7 @@ public class Client {
 
             // Create quickdb installer
             File quickdb = new File(directory.getPath() + "/quickdb.bat");
+            quickdb.setExecutable(true);
             if (!quickdb.exists()) {
                 quickdb.createNewFile();
                 StringBuilder installerBat = new StringBuilder();
@@ -71,6 +73,7 @@ public class Client {
 
             // Create a client run
             File run = new File(directory.getPath() + "/run.bat");
+            run.setExecutable(true);
             if (!run.exists()) {
                 run.createNewFile();
                 StringBuilder runBat = new StringBuilder();
