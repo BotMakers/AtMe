@@ -38,7 +38,7 @@ public class EventElement extends Element {
 
     @Override
     public ImageIcon getIcon() {
-        return ImageHelper.getImage("atme/bot_screen/elements/event");
+        return ImageHelper.getImage("bot_screen/elements/event");
     }
 
     @Override

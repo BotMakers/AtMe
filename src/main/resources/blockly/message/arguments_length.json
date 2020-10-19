@@ -1,0 +1,19 @@
+{
+  "message0": "Message arguments length %1",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "MESSAGE",
+      "check": "Message"
+    }
+  ],
+  "inputsInline": false,
+  "output": "Number",
+  "colour": 165,
+  "category": "Message",
+  "code": {
+    "javascript": "$[value%MESSAGE].content.split(/ +/g).length"
+  },
+  "tooltip": "",
+  "helpUrl": ""
+}

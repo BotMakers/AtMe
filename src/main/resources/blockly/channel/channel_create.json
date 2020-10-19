@@ -1,0 +1,39 @@
+{
+  "message0": "Create new channel in guild %1 Name %2 Topic %3 NSFW %4 then %5",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "GUILD",
+      "check": "Guild"
+    },
+    {
+      "type": "input_value",
+      "name": "NAME",
+      "check": "String"
+    },
+    {
+      "type": "input_value",
+      "name": "TOPIC",
+      "check": "String"
+    },
+    {
+      "type": "input_value",
+      "name": "NSFW",
+      "check": "Boolean"
+    },
+    {
+      "type": "input_statement",
+      "name": "THEN"
+    }
+  ],
+  "inputsInline": false,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 60,
+  "category": "Channel",
+  "code": {
+    "javascript": "$[value%GUILD].channels.create($[value%NAME], { topic: $[value%TOPIC], nsfw: $[value%NSFW] }).then(c => {\n $[statement%THEN] }).catch(console.error)"
+  },
+  "tooltip": "",
+  "helpUrl": ""
+}

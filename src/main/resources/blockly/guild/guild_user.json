@@ -1,0 +1,19 @@
+{
+  "message0": "Get guild from user %1",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "USER",
+      "check": "User"
+    }
+  ],
+  "inputsInline": false,
+  "output": "Guild",
+  "colour": 315,
+  "category": "Guild",
+  "code": {
+    "javascript": "$[value%USER].guild"
+  },
+  "tooltip": "",
+  "helpUrl": ""
+}

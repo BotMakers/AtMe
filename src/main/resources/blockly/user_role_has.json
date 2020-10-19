@@ -1,0 +1,24 @@
+{
+  "message0": "Does user %1 have role %2",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "USER",
+      "check": "User"
+    },
+    {
+      "type": "input_value",
+      "name": "ROLE",
+      "check": "Role"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Boolean",
+  "colour": 210,
+  "category": "Logic",
+  "code": {
+    "javascript": "$[value%USER].roles.cache.has($[value%ROLE])"
+  },
+  "tooltip": "",
+  "helpUrl": ""
+}

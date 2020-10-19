@@ -1,0 +1,13 @@
+{
+  "message0": "Get message",
+  "inputsInline": true,
+  "output": "Message",
+  "colour": 165,
+  "depend": "Message",
+  "code": {
+    "javascript": "message"
+  },
+  "category": "Message",
+  "tooltip": "",
+  "helpUrl": ""
+}

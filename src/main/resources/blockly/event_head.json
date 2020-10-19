@@ -1,0 +1,33 @@
+{
+  "message0": "On Event %1 %2 %3",
+  "args0": [
+    {
+      "type": "field_dropdown",
+      "name": "EVENT",
+      "options": [
+        [
+          "message",
+          "MESSAGE"
+        ]
+      ]
+    },
+    {
+      "type": "input_dummy"
+    },
+    {
+      "type": "input_statement",
+      "name": "DO"
+    }
+  ],
+  "category": "Flow control",
+  "style": "hat_blocks",
+  "fieldProvides": {
+    "EVENT": {
+      "MESSAGE": [
+        "Message"
+      ]
+    }
+  },
+  "tooltip": "",
+  "helpUrl": ""
+}

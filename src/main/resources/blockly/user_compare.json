@@ -1,0 +1,52 @@
+{
+  "message0": "%1 %2 %3 %4",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "A",
+      "check": "User"
+    },
+    {
+      "type": "field_dropdown",
+      "name": "OP",
+      "options": [
+        [
+          "=",
+          "EQ"
+        ],
+        [
+          "\u2260",
+          "NEQ"
+        ]
+      ]
+    },
+    {
+      "type": "input_dummy"
+    },
+    {
+      "type": "input_value",
+      "name": "B",
+      "check": "User"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Boolean",
+  "colour": 0,
+  "code": {
+    "javascript": "($[value%A].id $[field%OP] $[value%B].id)"
+  },
+  "fieldManipulator": {
+    "javascript": {
+      "OP": {
+        "EQ": "===",
+        "NEQ": "!=="
+      }
+    }
+  },
+  "escape": {
+    "javascript": "true"
+  },
+  "category": "Logic",
+  "tooltip": "",
+  "helpUrl": ""
+}

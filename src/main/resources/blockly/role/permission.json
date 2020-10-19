@@ -1,0 +1,143 @@
+{
+  "message0": "%1",
+  "args0": [
+    {
+      "type": "field_dropdown",
+      "name": "PERM",
+      "options": [
+        [
+          "Create invite",
+          "CREATE_INTANT_INVITE"
+        ],
+        [
+          "Kick members",
+          "KICK_MEMBERS"
+        ],
+        [
+          "Ban members",
+          "BAN_MEMBERS"
+        ],
+        [
+          "Administrator",
+          "ADMINISTRATOR"
+        ],
+        [
+          "Manage channels",
+          "MANAGE_CHANNELS"
+        ],
+        [
+          "Manage guild",
+          "MANAGE_GUILD"
+        ],
+        [
+          "Add reactions",
+          "ADD_REACTIONS"
+        ],
+        [
+          "View audit log",
+          "VIEW_AUDIT_LOG"
+        ],
+        [
+          "Priority speaker",
+          "PRIORITY_SPEAKER"
+        ],
+        [
+          "Stream",
+          "STREAM"
+        ],
+        [
+          "View channel",
+          "VIEW_CHANNEL"
+        ],
+        [
+          "Send messages",
+          "SEND_MESSAGES"
+        ],
+        [
+          "Send text-to-speech messages",
+          "SEND_TTS_MESSAGES"
+        ],
+        [
+          "Manage messages",
+          "MANAGE_MESSAGES"
+        ],
+        [
+          "Embed links",
+          "EMBED_LINKS"
+        ],
+        [
+          "Attach files",
+          "ATTACH_FILES"
+        ],
+        [
+          "Read message history",
+          "READ_MESSAGE_HISTORY"
+        ],
+        [
+          "Mention @everyone",
+          "MENTION_EVERYONE"
+        ],
+        [
+          "Use external emojis",
+          "USE_EXTERNAL_EMOJIS"
+        ],
+        [
+          "View guild insights",
+          "VIEW_GUILD_INSIGHTS"
+        ],
+        [
+          "Audio connect",
+          "CONNECT"
+        ],
+        [
+          "Audio speak",
+          "SPEAK"
+        ],
+        [
+          "Mute members",
+          "MUTE_MEMBERS"
+        ],
+        [
+          "Deafen members",
+          "DEAFEN_MEMBERS"
+        ],
+        [
+          "Move members",
+          "MOVE_MEMBERS"
+        ],
+        [
+          "Use VAD",
+          "USE_VAD"
+        ],
+        [
+          "Change nickname",
+          "CHANGE_NICKNAME"
+        ],
+        [
+          "Manage nicknames",
+          "MANAGE_NICKNAMES"
+        ],
+        [
+          "Manage roles",
+          "MANAGE_ROLES"
+        ],
+        [
+          "Manage webhooks",
+          "MANAGE_WEBHOOKS"
+        ],
+        [
+          "Manage emojis",
+          "MANAGE_EMOJIS"
+        ]
+      ]
+    }
+  ],
+  "category": "Role",
+  "code": {
+    "javascript": "$[field%PERM]"
+  },
+  "output": "Perm",
+  "colour": 270,
+  "tooltip": "",
+  "helpUrl": ""
+}

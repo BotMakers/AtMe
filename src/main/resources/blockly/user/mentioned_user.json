@@ -1,0 +1,18 @@
+{
+  "message0": "Get mentioned user from message %1",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "MESSAGE",
+      "check": "Message"
+    }
+  ],
+  "output": "User",
+  "category": "User",
+  "code": {
+    "javascript": "$[value%MESSAGE].mentions.members.first()"
+  },
+  "colour": 0,
+  "tooltip": "",
+  "helpUrl": ""
+}

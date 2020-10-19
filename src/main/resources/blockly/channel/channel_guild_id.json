@@ -1,0 +1,24 @@
+{
+  "message0": "Get channel in guild %1 from identification %2",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "GUILD",
+      "check": "Guild"
+    },
+    {
+      "type": "input_value",
+      "name": "ID",
+      "check": "String"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Channel",
+  "colour": 60,
+  "category": "Channel",
+  "code": {
+    "javascript": "$[value%GUILD].channels.cache.get($[value%ID])"
+  },
+  "tooltip": "",
+  "helpUrl": ""
+}

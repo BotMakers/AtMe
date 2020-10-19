@@ -1,0 +1,18 @@
+{
+  "message0": "Get content of messaege %1",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "MESSAGE",
+      "check": "Message"
+    }
+  ],
+  "output": "String",
+  "colour": 165,
+  "code": {
+    "javascript": "$[value%MESSAGE].content"
+  },
+  "category": "Text",
+  "tooltip": "",
+  "helpUrl": ""
+}

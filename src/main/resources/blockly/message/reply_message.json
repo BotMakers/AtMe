@@ -1,0 +1,25 @@
+{
+  "message0": "Reply to message %1 with content %2",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "MESSAGE",
+      "check": "Message"
+    },
+    {
+      "type": "input_value",
+      "name": "CONTENT",
+      "check": "String"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "code": {
+    "javascript": "$[value%MESSAGE].reply($[value%CONTENT])"
+  },
+  "colour": 165,
+  "category": "Message",
+  "tooltip": "",
+  "helpUrl": ""
+}

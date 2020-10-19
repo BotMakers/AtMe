@@ -75,7 +75,7 @@ public class Blocks {
         Blockly.registerCategory(ROLE);
         Blockly.registerCategory(CHANNEL);
         Blockly.registerCategory(GUILD);
-        File pluginDir = new File("src/main/resources/blockly/impl/");
+        File pluginDir = new File("src/main/resources/blockly/");
         pluginDir.mkdir();
         BlocklyPluginLoader.loadBlocksFromDirectory(pluginDir);
 

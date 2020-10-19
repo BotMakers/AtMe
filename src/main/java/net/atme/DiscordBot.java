@@ -104,7 +104,7 @@ public class DiscordBot extends DetailedFile {
                 }
             });
 
-            FadeOnHoverWidget addElement = new FadeOnHoverWidget(ImageHelper.getImage("atme/bot_screen/add_element"), ImageHelper.getImage("atme/bot_screen/add_element_hovered"), 0.005F);
+            FadeOnHoverWidget addElement = new FadeOnHoverWidget(ImageHelper.getImage("bot_screen/add_element"), ImageHelper.getImage("bot_screen/add_element_hovered"), 0.005F);
             addElement.addMouseListener(new MouseAdapter() {
                 @Override
                 public void mouseClicked(MouseEvent e) {
@@ -144,7 +144,7 @@ public class DiscordBot extends DetailedFile {
             });
             addElement.setToolTipText(Localizer.translate("bot.add_element.text"));
 
-            FadeOnHoverWidget runClient = new FadeOnHoverWidget(ImageHelper.getImage("atme/bot_screen/run_client"), ImageHelper.getImage("atme/bot_screen/run_client_hovered"), 0.005F);
+            FadeOnHoverWidget runClient = new FadeOnHoverWidget(ImageHelper.getImage("bot_screen/run_client"), ImageHelper.getImage("bot_screen/run_client_hovered"), 0.005F);
             runClient.addMouseListener(new MouseAdapter() {
                 @Override
                 public void mouseClicked(MouseEvent e) {
@@ -154,7 +154,7 @@ public class DiscordBot extends DetailedFile {
             });
             runClient.setToolTipText(Localizer.translate("bot.run_client.text"));
 
-            FadeOnHoverWidget settings = new FadeOnHoverWidget(ImageHelper.getImage("atme/bot_screen/settings"), ImageHelper.getImage("atme/bot_screen/settings_hovered"), 0.005F);
+            FadeOnHoverWidget settings = new FadeOnHoverWidget(ImageHelper.getImage("bot_screen/settings"), ImageHelper.getImage("bot_screen/settings_hovered"), 0.005F);
             settings.addMouseListener(new MouseAdapter() {
                 @Override
                 public void mouseClicked(MouseEvent e) {

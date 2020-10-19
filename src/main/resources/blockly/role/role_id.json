@@ -1,0 +1,19 @@
+{
+  "message0": "Get role from identification %1",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "ID",
+      "check": "String"
+    }
+  ],
+  "inputsInline": false,
+  "output": null,
+  "colour": 270,
+  "category": "Role",
+  "code": {
+    "javascript": "$[value%ID]"
+  },
+  "tooltip": "",
+  "helpUrl": ""
+}

@@ -1,0 +1,19 @@
+{
+  "message0": "Get channel from message %1",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "MESSAGE",
+      "check": "Message"
+    }
+  ],
+  "inputsInline": false,
+  "output": "Channel",
+  "colour": 60,
+  "category": "Channel",
+  "code": {
+    "javascript": "$[value%MESSAGE].channel"
+  },
+  "tooltip": "",
+  "helpUrl": ""
+}

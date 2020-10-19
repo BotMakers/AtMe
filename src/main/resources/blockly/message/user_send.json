@@ -1,0 +1,25 @@
+{
+  "message0": "Message user %1 with content %2",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "USER",
+      "check": "User"
+    },
+    {
+      "type": "input_value",
+      "name": "MESSAGE",
+      "check": "String"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 165,
+  "code": {
+    "javascript": "$[value%USER].send($[value%MESSAGE])"
+  },
+  "category": "Message",
+  "tooltip": "",
+  "helpUrl": ""
+}

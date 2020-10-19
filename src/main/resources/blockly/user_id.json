@@ -1,0 +1,19 @@
+{
+  "message0": "Get user identification %1",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "USER",
+      "check": "User"
+    }
+  ],
+  "inputsInline": false,
+  "output": "String",
+  "code": {
+    "javascript": "$[value%USER].id"
+  },
+  "colour": 165,
+  "category": "Text",
+  "tooltip": "",
+  "helpUrl": ""
+}

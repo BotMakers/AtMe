@@ -1,0 +1,25 @@
+{
+  "message0": "Remove role %1 from user %2",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "ROLE",
+      "check": "Role"
+    },
+    {
+      "type": "input_value",
+      "name": "USER",
+      "check": "User"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 270,
+  "category": "Role",
+  "code": {
+    "javascript": "$[value%USER].roles.remove($[value%ROLE])"
+  },
+  "tooltip": "",
+  "helpUrl": ""
+}

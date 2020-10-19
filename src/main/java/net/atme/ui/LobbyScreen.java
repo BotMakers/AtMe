@@ -28,6 +28,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -66,7 +67,7 @@ public class LobbyScreen {
             JPanel iconPanel = PanelHelper.northAndCenterElements(icon, version);
             iconPanel.setBorder(BorderFactory.createEmptyBorder(60, 0, 80, 0));
 
-            FadeOnHoverWidget addWork = new FadeOnHoverWidget(ImageHelper.getImage("atme/add_work"), ImageHelper.getImage("atme/add_work_hovered"), 0.005F);
+            FadeOnHoverWidget addWork = new FadeOnHoverWidget(ImageHelper.getImage("add_work"), ImageHelper.getImage("add_work_hovered"), 0.005F);
             addWork.setPreferredSize(new Dimension(140,140));
             addWork.setCursor(new Cursor(Cursor.HAND_CURSOR));
             addWork.addMouseListener(new MouseAdapter() {
@@ -91,7 +92,7 @@ public class LobbyScreen {
                     }
                 }
             });
-            FadeOnHoverWidget openWork = new FadeOnHoverWidget(ImageHelper.getImage("atme/open_file"), ImageHelper.getImage("atme/open_file_hovered"), 0.005F);
+            FadeOnHoverWidget openWork = new FadeOnHoverWidget(ImageHelper.getImage("open_file"), ImageHelper.getImage("open_file_hovered"), 0.005F);
             openWork.setPreferredSize(new Dimension(140,140));
             openWork.setCursor(new Cursor(Cursor.HAND_CURSOR));
             openWork.addMouseListener(new MouseAdapter() {
@@ -199,6 +200,8 @@ public class LobbyScreen {
             if (!recentsFile.createNewFile()) {
                 FileReader reader = new FileReader(recentsFile);
                 Map<String, String> recents = gson.fromJson(reader, new TypeToken<Map<String, String>>() {}.getType());
+                if (recents == null)
+                    recents = new HashMap<>();
                 reader.close();
                 List<RecentBot> bots = new ArrayList<>();
                 if (recents.isEmpty())

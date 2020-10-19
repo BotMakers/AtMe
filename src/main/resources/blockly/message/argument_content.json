@@ -1,0 +1,24 @@
+{
+  "message0": "Get argument %1 of message %2",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "INDEX",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "MESSAGE",
+      "check": "Message"
+    }
+  ],
+  "inputsInline": true,
+  "output": "String",
+  "category": "Message",
+  "colour": 165,
+  "code": {
+    "javascript": "$[value%MESSAGE].content.split(/ +/g)[$[value%INDEX]]"
+  },
+  "tooltip": "",
+  "helpUrl": ""
+}

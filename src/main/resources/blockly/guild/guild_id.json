@@ -1,0 +1,19 @@
+{
+  "message0": "Get guild from identification %1",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "ID",
+      "check": "String"
+    }
+  ],
+  "inputsInline": false,
+  "output": "Guild",
+  "colour": 315,
+  "category": "Guild",
+  "code": {
+    "javascript": "bot.guilds.cache.get($[value%ID])"
+  },
+  "tooltip": "",
+  "helpUrl": ""
+}

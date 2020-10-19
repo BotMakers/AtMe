@@ -1,0 +1,38 @@
+{
+  "message0": "Set permission %1 to %2 for role or user %3 of channel %4",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "PERM",
+      "check": "Perm"
+    },
+    {
+      "type": "input_value",
+      "name": "BOOL",
+      "check": "Boolean"
+    },
+    {
+      "type": "input_value",
+      "name": "OB",
+      "check": [
+        "Role",
+        "User"
+      ]
+    },
+    {
+      "type": "input_value",
+      "name": "CHANNEL",
+      "check": "Channel"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 60,
+  "category": "Channel",
+  "code": {
+    "javascript": "$[value%CHANNEL].updateOverwrite($[value%OB], {\n $[value%PERM]: $[value%BOOL],\n });"
+  },
+  "tooltip": "",
+  "helpUrl": ""
+}

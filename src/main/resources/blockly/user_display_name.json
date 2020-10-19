@@ -1,0 +1,19 @@
+{
+  "message0": "Get user display name %1",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "USER",
+      "check": "User"
+    }
+  ],
+  "inputsInline": false,
+  "output": "String",
+  "category": "Text",
+  "colour": 165,
+  "code": {
+    "javascript": "$[value%USER].displayName"
+  },
+  "tooltip": "",
+  "helpUrl": ""
+}

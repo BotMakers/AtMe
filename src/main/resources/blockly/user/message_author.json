@@ -1,0 +1,18 @@
+{
+  "message0": "Get author of message %1",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "MESSAGE",
+      "check": "Message"
+    }
+  ],
+  "output": "User",
+  "code": {
+    "javascript": "$[value%MESSAGE].member"
+  },
+  "category": "User",
+  "colour": 0,
+  "tooltip": "",
+  "helpUrl": ""
+}

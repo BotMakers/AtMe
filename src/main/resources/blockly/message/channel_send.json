@@ -1,0 +1,25 @@
+{
+  "message0": "Send message in channel  %1 with content %2",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "CHANNEL",
+      "check": "Channel"
+    },
+    {
+      "type": "input_value",
+      "name": "TEXT",
+      "check": "String"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 165,
+  "category": "Message",
+  "code": {
+    "javascript": "$[value%CHANNEL].send($[value%TEXT])"
+  },
+  "tooltip": "",
+  "helpUrl": ""
+}

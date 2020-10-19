@@ -1,0 +1,19 @@
+{
+  "message0": "Current bot of guild %1",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "GUILD",
+      "check": "Guild"
+    }
+  ],
+  "inputsInline": false,
+  "output": "User",
+  "colour": 0,
+  "category": "User",
+  "code": {
+    "javascript": "$[value%GUILD].members.cache.get(bot.user.id)"
+  },
+  "tooltip": "",
+  "helpUrl": ""
+}

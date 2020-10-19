@@ -1,0 +1,24 @@
+{
+  "message0": "User %1 has permission %2",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "USER",
+      "check": "User"
+    },
+    {
+      "type": "input_value",
+      "name": "PERM",
+      "check": "Perm"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Boolean",
+  "category": "Logic",
+  "code": {
+    "javascript": "$[value%USER].hasPermission('$[value%PERM]')"
+  },
+  "colour": 210,
+  "tooltip": "",
+  "helpUrl": ""
+}
