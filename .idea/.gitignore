@@ -1,3 +1,31 @@
-# Default ignored files
-/shelf/
-/workspace.xml
+#FILES FOR INTELLIJ IDEA
+#=======================
+**/.idea/workspace.xml
+**/.idea/deployment.xml
+**/.idea/discord.xml
+**/.idea/misc.xml
+
+#FILES FOR GRADLE
+#=======================
+.gradle
+/build/
+**/build/
+
+#SYSTEM AND JAVA FILES
+#=====================
+Thumbs.db
+debug.log
+hs_err_pid*
+
+#FILES FOR DEV WORKSPACE
+#===============================
+**/out/production/main/blockly/
+/out/production/main/blockly/
+**/out/production/main/textures/
+/out/production/main/textures/
+
+#MACOS
+#=====================
+.DS_Store
+.AppleDouble
+.LSOverride
