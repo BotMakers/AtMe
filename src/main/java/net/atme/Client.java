@@ -1,6 +1,7 @@
 package net.atme;
 
 import net.displayphoenix.Application;
+import net.displayphoenix.util.FileHelper;
 import net.displayphoenix.util.StringHelper;
 
 import java.io.*;
@@ -40,6 +41,7 @@ public class Client {
             // Create an wrapper
             File wrapper = new File(directory.getPath() + "/wrapper.bat");
             wrapper.setExecutable(true);
+            FileHelper.changeFileAdministrator(wrapper);
             if (!wrapper.exists()) {
                 wrapper.createNewFile();
                 StringBuilder installerBat = new StringBuilder();
@@ -57,6 +59,7 @@ public class Client {
             // Create quickdb installer
             File quickdb = new File(directory.getPath() + "/quickdb.bat");
             quickdb.setExecutable(true);
+            FileHelper.changeFileAdministrator(quickdb);
             if (!quickdb.exists()) {
                 quickdb.createNewFile();
                 StringBuilder installerBat = new StringBuilder();
@@ -74,6 +77,7 @@ public class Client {
             // Create a client run
             File run = new File(directory.getPath() + "/run.bat");
             run.setExecutable(true);
+            FileHelper.changeFileAdministrator(run);
             if (!run.exists()) {
                 run.createNewFile();
                 StringBuilder runBat = new StringBuilder();
