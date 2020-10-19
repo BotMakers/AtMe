@@ -46,7 +46,7 @@ public class App {
         splashScreen.setLoadingProgress(100);
         Application.create("AtMe", ImageHelper.getImage("alt_discord_buddy"), theme, "Alpha 1.0");
 
-        LobbyScreen.open();
+        //LobbyScreen.open();
     }
 
     public enum State {

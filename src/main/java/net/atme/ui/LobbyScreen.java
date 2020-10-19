@@ -73,7 +73,7 @@ public class LobbyScreen {
             addWork.addMouseListener(new MouseAdapter() {
                 @Override
                 public void mouseClicked(MouseEvent e) {
-                    if (Application.systemExecute("where node") == 0) {
+                    if (Application.systemExecute("node -v") == 0) {
                         WorkCreator.createNewWork(parentFrame);
                     }
                     else {
