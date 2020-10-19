@@ -47,7 +47,6 @@ public class App {
         Application.create("AtMe", ImageHelper.getImage("alt_discord_buddy"), theme, "Alpha 1.0");
 
         LobbyScreen.open();
-        //Application.systemExecute("find /i mcreator.exe");
     }
 
     public enum State {
