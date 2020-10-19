@@ -1,0 +1,31 @@
+{
+  "key.example.test": "Example",
+
+  "creation.create_bot.text": "Create bot",
+  "creation.bot_name.text": "Bot name (Can't be undone!):",
+  "creation.bot_desc.text": "Bot description:",
+  "creation.bot_prefix.text": "Bot prefix:",
+  "creation.bot_author.text": "Bot author:",
+  "creation.bot_token.text": "Bot token:",
+  "creation.bot_creation_help.text": "(Create by clicking discord icon)",
+
+  "refactor.refactor_bot.text": "Refactor bot",
+  "refactor.bot_vers.text": "Bot version:",
+  "refactor.bot_refactor_help.text": "(Refactor by clicking discord icon)",
+
+  "bot.add_element.text": "Add element",
+  "bot.run_client.text": "Run client",
+  "bot.settings.text": "Refactor bot",
+
+  "bot.file.save.text": "Save bot",
+  "bot.file.rebuild.text": "Rebuild bot",
+  "bot.file.new.text": "New bot",
+  "bot.file.open.text": "Open bot",
+
+  "bot.kill.note": "(Bot may seem online still)",
+
+  "lobby.no_recent_bots.text": "No recent discord bots.",
+
+  "blockly.dependency.text": "Dependencies:",
+  "blockly.provision.text": "Provisions:"
+}
