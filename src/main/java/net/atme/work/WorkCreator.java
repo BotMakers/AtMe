@@ -81,7 +81,7 @@ public class WorkCreator {
                     DiscordBot discordBot = new DiscordBot(file, botNameDisplay.getText(), "1.0.0", botDescField.getText(), botAuthorField.getText(), botPrefixField.getText(), botTokenField.getText());
                     parentFrame.dispose();
 
-                    CircleLoadingSplashScreen splashScreen = new CircleLoadingSplashScreen(ImageHelper.getImage("atme/alt_discord_buddy").getImage(), 300, 300, 140, 10, Color.BLUE, ColorInit.TRANSPARENT);
+                    CircleLoadingSplashScreen splashScreen = new CircleLoadingSplashScreen(ImageHelper.getImage("alt_discord_buddy").getImage(), 300, 300, 140, 10, Color.BLUE, ColorInit.TRANSPARENT);
                     splashScreen.setLoadingProgress(50);
                     discordBot.save(true);
                     splashScreen.setLoadingProgress(100);
