@@ -73,7 +73,8 @@ public class LobbyScreen {
             addWork.addMouseListener(new MouseAdapter() {
                 @Override
                 public void mouseClicked(MouseEvent e) {
-                    File nodeJsExe = new File("C:/Program Files/nodejs");
+                    WorkCreator.createNewWork(parentFrame); // temporary disabled node.js check
+                    /*File nodeJsExe = new File("C:/Program Files/nodejs");
                     if (nodeJsExe.exists()) {
                         WorkCreator.createNewWork(parentFrame);
                     }
@@ -89,7 +90,7 @@ public class LobbyScreen {
                                 super.mouseClicked(e);
                             }
                         }).closeWindow());
-                    }
+                    }*/
                 }
             });
             FadeOnHoverWidget openWork = new FadeOnHoverWidget(ImageHelper.getImage("open_file"), ImageHelper.getImage("open_file_hovered"), 0.005F);
