@@ -1,3 +1,31 @@
 {
-  "key.example.test": "Example"
+  "key.example.test": "Example",
+
+  "creation.create_bot.text": "Créer un bot",
+  "creation.bot_name.text": "Nom du bot (Ne peut pas être modifié !):",
+  "creation.bot_desc.text": "Description du bot:",
+  "creation.bot_prefix.text": "Prefix du bot:",
+  "creation.bot_author.text": "Créateur du bot:",
+  "creation.bot_token.text": "Token du bot:",
+  "creation.bot_creation_help.text": "(Créer en cliquant sur l'îcone discord)",
+
+  "refactor.refactor_bot.text": "Réinitialiser le bot",
+  "refactor.bot_vers.text": "Version du bot:",
+  "refactor.bot_refactor_help.text": "(Réinitialiser en cliquant sur l'îcone discord)",
+
+  "bot.add_element.text": "Ajouter un élément",
+  "bot.run_client.text": "Lancer le client",
+  "bot.settings.text": "Réinitialiser le bot",
+
+  "bot.file.save.text": "Sauvegarder le bot",
+  "bot.file.rebuild.text": "Re-construire le bot",
+  "bot.file.new.text": "Nouveau bot",
+  "bot.file.open.text": "Ouvrir un bot",
+
+  "bot.kill.note": "(Le bot peut toujours sembler en ligne)",
+
+  "lobby.no_recent_bots.text": "Pas de bots discord récents.",
+
+  "blockly.dependency.text": "Dependances:",
+  "blockly.provision.text": "Provisions:"
 }
