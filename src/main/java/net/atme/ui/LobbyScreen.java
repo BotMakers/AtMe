@@ -205,13 +205,17 @@ public class LobbyScreen {
                 List<RecentBot> bots = new ArrayList<>();
                 if (recents.isEmpty())
                     return null;
+                List<String> namesToRemove = new ArrayList<>();
                 for (String name : recents.keySet()) {
                     if (new File(recents.get(name)).exists()) {
                         bots.add(new RecentBot(name, recents.get(name)));
                     }
                     else {
-                        recents.remove(name);
+                        namesToRemove.add(name);
                     }
+                }
+                for (String name : namesToRemove) {
+                    recents.remove(name);
                 }
                 return bots;
             }
